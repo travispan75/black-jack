@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "This page contains an online version of the casino game &quot;Blackjack&quot;">
+    <title>Blackjack</title>
+    <link rel = "icon" href = "images/jack-of-spades (1).png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "blackjack.css" type = "text/css">
+
+</head>
+
+<body>
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards" class="center">
+        <img id="hidden" src="img/card back red.png">
+    </div>
+
+    <h2 id="name">You:<span id="user-name"></span></h2>
+    <div id="your-cards" class="center">
+        
+    </div>
+
+    <br>
+    <div class="choices">
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+        <p id="results"></p>
+    </div>
+    <script src="blackjack.js"></script>
+</body>
+
+</html>
